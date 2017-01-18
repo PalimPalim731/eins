@@ -1,4 +1,5 @@
 <h1>Home</h1>
 <p>Hi reader!</p><br/>
-<a href="/static_pages/contact">Contact-page</a><br/>
-<a href="/users/new">Signup-page</a>
+<%= link_to "Contact", controller: 'static_pages', action: 'contact' %> |
+<%= link_to "Login", controller: 'authentication', action: 'login' %> |
+<%= link_to "Signup", controller: 'authentication', action: 'signup' %> 
